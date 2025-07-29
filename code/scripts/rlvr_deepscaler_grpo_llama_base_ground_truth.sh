@@ -81,6 +81,6 @@ python -m ttrl.cli.train_ppo_naive \
    --packing_samples \
    --flash_attn \
    --use_wandb ${WANDB_KEY} \
-   --wandb_project SpuriousRewardRLVR \
+   --wandb_project SillyRewardRLVR \
    --wandb_run_name ${EXP} \
    --ckpt_path "${OUTPUT_DIR}/ckpt" 
